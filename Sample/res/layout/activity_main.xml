@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="510dip"
+    android:layout_marginTop="10dip"
+    android:background="#DDDDDD">"
+    
+
+     <TextView
+         android:id="@+id/tv_error"
+         android:layout_width="400dip"
+         android:layout_height="100dip"
+         android:layout_alignRight="@+id/btn_login"
+         android:layout_below="@+id/btn_login"
+         android:layout_marginRight="18dp"
+         android:layout_marginTop="61dp"
+         android:textColor="#AA0000"
+         android:textSize="7pt" />
+
+     <TextView
+         android:id="@+id/tv_pw"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignLeft="@+id/tv_un"
+         android:layout_below="@+id/et_un"
+         android:layout_marginTop="45dp"
+         android:text="Password:"
+         android:textColor="#444444"
+         android:textSize="10pt" />
+
+     <EditText
+         android:id="@+id/et_pw"
+         android:layout_width="150dip"
+         android:layout_height="wrap_content"
+         android:layout_alignBaseline="@+id/tv_pw"
+         android:layout_alignBottom="@+id/tv_pw"
+         android:layout_alignParentRight="true"
+         android:layout_marginRight="16dp"
+         android:background="@android:drawable/editbox_background"
+         android:ems="10"
+         android:inputType="textPassword" />
+
+     <EditText
+         android:id="@+id/et_un"
+         android:layout_width="150dip"
+         android:layout_height="wrap_content"
+         android:layout_alignLeft="@+id/et_pw"
+         android:layout_alignTop="@+id/tv_un"
+         android:background="@android:drawable/editbox_background"
+         android:ems="10"
+         android:inputType="text" />
+
+     <Button
+         android:id="@+id/btn_login"
+         android:layout_width="100dip"
+         android:layout_height="wrap_content"
+         android:layout_below="@+id/et_pw"
+         android:layout_centerHorizontal="true"
+         android:layout_marginTop="32dp"
+         android:text="Login" />
+
+     <TextView
+         android:id="@+id/tv_un"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignParentTop="true"
+         android:layout_marginTop="112dp"
+         
+         android:layout_toLeftOf="@+id/et_un"
+         android:text="User Name:"
+         android:textColor="#444444"
+         android:textSize="10pt" />
+
+   
+
+</RelativeLayout>
